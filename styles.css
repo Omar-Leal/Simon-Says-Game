@@ -1,0 +1,93 @@
+
+      body {
+        margin: 0;
+        background: #252525;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+      }
+
+      h1{
+        color: white;
+      }
+
+      .gameboard {
+        height: 100vh;
+        width: 100vh;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        max-height: 60vh;
+        max-width: 60vh;
+      }
+
+      .color {
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+      }
+
+      .left {
+        float: left;
+      }
+
+      .right {
+        float: left;
+      }
+
+      .celeste {
+        background: linear-gradient(
+          0deg,
+       rgba(0, 102, 204, 1.0) 0%,
+       rgba(125,6,152,1.0) 100%
+        )
+        
+      }
+
+      .celeste.light {
+        background: #7ed6df;
+      }
+
+      .violeta {
+        background: linear-gradient(to bottom right, #5a72fc, #fb4d4d)
+      }
+
+      .violeta.light {
+        background: #e056fd;
+      }
+
+      .naranja {
+        background: linear-gradient(to bottom left, #009245 , #FCEE21);
+      }
+
+      .naranja.light {
+        background: #ffbe76;
+        
+      }
+
+      .verde {
+        background: linear-gradient(to bottom right, #0e9e4f, #69f1e8);
+      }
+
+      .verde.light {
+        background: #badc58;
+      }
+
+      .btn-start {
+        border: none;
+        border-radius: 50px;
+        width: 400px;
+        height: 100px;
+        background: #ecf0f1;
+        color: #2c3e50;
+        font-size: 2.5rem;
+        position: absolute;
+        top: calc(50% - 50px);
+        left: calc(50% - 200px);
+      }
+
+      .hide {
+        display: none;
+      }
+ 
+      
