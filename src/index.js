@@ -10,6 +10,10 @@ let score = 10;
 
 
 
+
+
+// Constructor del juego
+// Call to the functioncs 
 class juego{
     constructor(){
         this.inicializar = this.inicializar.bind(this);
