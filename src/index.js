@@ -6,12 +6,6 @@ const $btnEmpezar = document.getElementById('btnEmpezar');
 const ULTIMO_NIVEL = 3;
 let score = 10;
 
-
-
-
-
-
-
 // Constructor del juego
 // Call to the functioncs 
 class juego{
