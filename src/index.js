@@ -7,9 +7,6 @@ const ULTIMO_NIVEL = 3;
 let score = 10;
 
 
-
-
-
 class juego{
     constructor(){
         this.inicializar = this.inicializar.bind(this);
